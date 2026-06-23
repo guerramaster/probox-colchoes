@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: probox
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
+    headers:
+      - path: "/*.css"
+        name: Content-Encoding
+        value: gzip

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://probox-mpdg.onrender.com/sitemap.xml
