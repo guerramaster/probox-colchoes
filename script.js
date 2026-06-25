@@ -126,10 +126,6 @@
     });
   }
 
-  // ─── Consentimento de cookies + mapa ───────────────────────────────────────
-  // O Google Maps (/ccm/collect) também dispara cookies de terceiros,
-  // então bloqueamos o mapa até que o usuário aceite.
-
   const mapCard = document.getElementById("mapCard");
 
   function setupMap() {
